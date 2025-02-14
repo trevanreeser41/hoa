@@ -5,7 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-import { fetchExampleData } from '../../api/api';
+import { fetchExampleData } from '@/api/api';
 
 export default function HomeScreen() {
   const [welcomeMessage, setWelcomeMessage] = useState('');
@@ -46,7 +46,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Data is stored in a MySQL database and leverages the mysql2 gem to hook into ActiveRecord</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in the fronten of the launchpad app.
+          Tap the Explore tab to learn more about what's included in the frontend of the launchpad app.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>

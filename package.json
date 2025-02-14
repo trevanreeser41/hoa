@@ -4,5 +4,8 @@
     "expo-blur": "14.0.3",
     "expo-constants": "17.0.5",
     "expo-linking": "7.0.5"
+  },
+  "scripts": {
+    "start": "foreman start"
   }
 }

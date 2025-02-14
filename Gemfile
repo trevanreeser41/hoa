@@ -42,6 +42,12 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem 'dotenv-rails'
+
+  gem 'byebug'
 end
+
+gem 'devise'  # For authentication
+gem 'jwt'     # For token-based auth
+gem 'pundit'  # For authorization policies
 
 
